@@ -39,7 +39,7 @@ btn.addEventListener("click", async (evt)=>{
     console.log(amountVal);
     if(amountVal === "" || amountVal < 1){
         amountVal = 1;
-        amount.value = "1";
+        amount.value = "1";mm
     }
     //console.log(fromCurr.value,toCurr.value);
     const URL = `${base_URL}/${fromCurr.value}`;
